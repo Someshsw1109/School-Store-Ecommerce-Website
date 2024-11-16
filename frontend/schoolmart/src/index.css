@@ -1,0 +1,247 @@
+@tailwind base;  
+@tailwind components;  
+@tailwind utilities;  
+
+/*body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}*/
+
+/* body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+} */
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: "Acme", sans-serif !important;
+  /* background-color: #34495e; */
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar:hover {
+  cursor: pointer;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #99627a;
+  border-radius: 20px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #e7cbcb;
+}
+
+::-webkit-scrollbar-corner {
+  background-color: #99627a;
+}
+
+.MuiDataGrid-scrollArea {
+  background-color: red;
+}
+/* .font__family {
+  font-family: "Acme", sans-serif !important;
+} */
+
+input[type="text"]:not(#f_login):not(#f_pwd) {
+  color: white;
+  border: white;
+}
+
+.css-1pysi21-MuiFormLabel-root-MuiInputLabel-root {
+  font-family: "Acme", sans-serif !important;
+}
+
+.css-1n4twyu-MuiInputBase-input-MuiOutlinedInput-input {
+  font-family: "Acme", sans-serif !important;
+}
+
+/* Navbar bg-color */
+.css-hip9hq-MuiPaper-root-MuiAppBar-root {
+  background-color: rgba(204, 204, 204, 0) !important;
+  /* background-color: #e7cbcb !important; */
+  /* background-color: #99627a !important; */
+}
+
+.css-m5x0z-MuiTypography-root {
+  color: rgb(0, 0, 0) !important;
+}
+
+/* Navbar button text color */
+.css-1q39md6-MuiButtonBase-root-MuiButton-root {
+  color: rgb(0, 0, 0) !important;
+  font-family: "Acme", sans-serif !important;
+}
+
+/* Navbar settings menu button text color */
+.css-1uwgr7b-MuiTypography-root {
+  font-family: "Acme", sans-serif !important;
+}
+
+/* Home Title */
+.css-gepadz-MuiTypography-root {
+  font-family: "Acme", sans-serif !important;
+}
+
+.css-1idn90j-MuiGrid-root {
+  text-align: justify;
+}
+
+/* h6 */
+.css-2ulfj5-MuiTypography-root {
+  font-family: "Acme", sans-serif !important;
+}
+
+/* h5 */
+.css-ag7rrr-MuiTypography-root {
+  font-family: "Acme", sans-serif !important;
+}
+
+.MuiAutocomplete-popper-root {
+  font-family: "Acme", sans-serif !important;
+}
+
+/* checkbox label */
+.css-j204z7-MuiFormControlLabel-root .MuiFormControlLabel-label {
+  font-family: "Acme", sans-serif !important;
+}
+
+/* ------Admin Tables -------- */
+
+.css-t89xny-MuiDataGrid-columnHeaderTitle {
+  font-family: "Acme", sans-serif !important;
+  color: "black";
+}
+
+.css-1b3p38o .header_color {
+  /* background-color: #c88ea7 !important; */
+  /* color: "black"; */
+}
+
+.css-78trlr-MuiButtonBase-root-MuiIconButton-root {
+  color: #99627a !important;
+}
+
+.MuiDataGrid-root .MuiDataGrid-cell:focus-within {
+  outline: none !important;
+}
+
+.css-1pysi21-MuiFormLabel-root-MuiInputLabel-root {
+  color: #95a5a6 !important;
+}
+
+.css-1b3p38o {
+  width: max-content !important;
+}
+
+.css-1kwdphh-MuiDataGrid-virtualScrollerContent {
+  font-family: "Acme", sans-serif !important;
+  color: #643843 !important;
+}
+
+.css-rtrcn9-MuiTablePagination-root .MuiTablePagination-selectLabel {
+  font-family: "Acme", sans-serif !important;
+}
+
+.css-194a1fa-MuiSelect-select-MuiInputBase-input.MuiSelect-select {
+  font-family: "Acme", sans-serif !important;
+}
+
+.css-levciy-MuiTablePagination-displayedRows {
+  font-family: "Acme", sans-serif !important;
+}
+
+/* Confirm Dialog */
+
+.MuiTypography-h6,
+.MuiTypography-subtitle2,
+.css-1e6y48t-MuiButtonBase-root-MuiButton-root {
+  font-family: "Acme", sans-serif !important;
+}
+
+/* Toggle Button Group */
+
+.css-6x4ptp-MuiButtonBase-root-MuiToggleButton-root {
+  font-family: "Acme", sans-serif !important;
+  border-radius: 50px !important;
+  background-color: #ebebeb !important;
+  border: 1px solid #ccc !important;
+  margin: 10px !important;
+}
+
+.css-6x4ptp-MuiButtonBase-root-MuiToggleButton-root.Mui-selected {
+  background-color: #c88ea7 !important;
+  border: 1px solid #ac7088 !important;
+  color: white !important;
+}
+
+/* .css-14s5rfu-MuiFormLabel-root-MuiInputLabel-root {
+  font-family: "Acme", sans-serif !important;
+}
+
+.css-1jy569b-MuiFormLabel-root-MuiInputLabel-root.Mui-focused {
+  font-family: "Acme", sans-serif !important;
+} */
+
+.css-14s5rfu-MuiFormLabel-root-MuiInputLabel-root,
+.css-1jy569b-MuiFormLabel-root-MuiInputLabel-root.Mui-focused,
+.css-1jy569b-MuiFormLabel-root-MuiInputLabel-root {
+  font-family: "Acme", sans-serif !important;
+}
+
+/* .css-9ddj71-MuiInputBase-root-MuiOutlinedInput-root.Mui-focused {
+  .css-1u3bzj6-MuiFormControl-root-MuiTextField-root.Mui-focused {
+    border: 2px solid red !important;
+    border-color: red !important;
+  } */
+
+/* .MuiAutocomplete-root
+  .Mui-expanded
+  .MuiAutocomplete-hasPopupIcon
+  .css-8jsjs0-MuiAutocomplete-root {
+  font-family: "Acme", sans-serif !important;
+} */
+
+.MuiAutocomplete-popper .MuiPopper-root {
+  font-family: "Acme", sans-serif !important;
+}
+
+.css-gdh49b-MuiAutocomplete-listbox .MuiAutocomplete-option {
+  font-family: "Acme", sans-serif !important;
+}
+
+.css-gdh49b-MuiAutocomplete-listbox .MuiAutocomplete-option.Mui-focused {
+  font-family: "Acme", sans-serif !important;
+  background-color: #ac7088 !important;
+  color: white !important;
+}
+
+.css-k4qjio-MuiFormHelperText-root.Mui-error {
+  font-family: "Acme", sans-serif !important;
+}
+
