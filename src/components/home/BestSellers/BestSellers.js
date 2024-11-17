@@ -16,38 +16,38 @@ const BestSellers = () => {
         <Product
           _id="1011"
           img={bestSellerOne}
-          productName="Flower Base"
+          productName="Mathematics Books - X"
           price="35.00"
-          color="Blank and White"
+          color="Mixed"
           badge={true}
-          des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis."
+          des=""
         />
         <Product
           _id="1012"
           img={bestSellerTwo}
-          productName="New Backpack"
+          productName="Black Shoes"
           price="180.00"
-          color="Gray"
+          color="Black"
           badge={false}
-          des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis."
+          des=""
         />
         <Product
           _id="1013"
           img={bestSellerThree}
-          productName="Household materials"
+          productName="School Dresses"
           price="25.00"
           color="Mixed"
           badge={true}
-          des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis."
+          des=""
         />
         <Product
           _id="1014"
           img={bestSellerFour}
-          productName="Travel Bag"
+          productName="School Bag"
           price="220.00"
-          color="Black"
+          color="Mixed"
           badge={false}
-          des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis."
+          des=""
         />
       </div>
     </div>

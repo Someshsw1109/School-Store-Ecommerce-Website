@@ -7,7 +7,7 @@ import Image from "../../designLayouts/Image";
 const YearProduct = () => {
   return (
     <Link to="/shop">
-      <div className="w-full h-80 mb-20 bg-[#f3f3f3] md:bg-transparent relative font-titleFont">
+      <div className="w-full h-80 mb-20 bg-[#a21717] md:bg-transparent relative font-titleFont">
         <Image
           className="w-full h-full object-cover hidden md:inline-block"
           imgSrc={productOfTheYear}
@@ -17,8 +17,8 @@ const YearProduct = () => {
             Product of The year
           </h1>
           <p className="text-base font-normal text-primeColor max-w-[600px] mr-4">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat
-            cupiditate modi amet! Facilis, aperiam quaerat.
+            Learning Management Systems (LMS): Platforms like Google Classroom or Canvas 
+            that streamline assignment submissions and collaboration.
           </p>
           <ShopNow />
         </div>
